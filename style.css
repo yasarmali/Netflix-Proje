@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232323;
+}
+
+.logo {
+    width: 175px;
+}
+
+.hero-image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.549), rgba(0, 0, 0, 0.533)), url(/img/arkaplan.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* ! Content */
+
+.arkaplan{
+    background-color: black;
+}
+
+.text h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/* ! SSS */
+
+.accordion{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 22px;
+}
+
+.panel{
+    padding: 20px;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    display: none;
+}
+
+.accordion::after{
+    content: "\002B";
+    float: right;
+}
+
+.active::after{
+    content: "\02E3";
+}
+
+.footer, .footer a{
+    color: #6C757D;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+} 
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li{
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+/* anasayfa cssleri */
+
+.navbar-decoration a{
+    color: white; 
+}
+
+.mask{
+    width: 30px;
+    
+}
+
+.arkaplann{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.549), rgba(0, 0, 0, 0.533)), url(/img/arkaplan.jpg);
+    width: 100%;
+    height:100vh;
+
+}
+
+.logo-2{
+    height: 50px;
+    margin-right: 100px;
+}
+
+/* diziler cssleri */
+
+.populer{
+    color: white;
+}
+.diziler-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* izle cssleri */
+.kutu{
+    background-color: rgba(0, 0, 0, 0.103);
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.kutu h3,
+.kutu p{
+    color: white;
+}
+
+
+/* hesap cssleri */
+
+.uye-islemleri p{
+color: #6C757D;
+font-size: 12px;
+}
+
+.uye-islemleri ul{
+    list-style: none;
+    font-size: 12px;
+}
+
+.uye-islemleri a {
+    text-decoration: none;
+}
+.uye-islemleri{
+    padding: 30px;
+}
+
+.mask-2{
+    width: 50px;
+}
+.span-1{
+    margin-left: 70%;
+}
+@media screen and (max-width : 992px) {
+    .first{
+        border-bottom: 1px solid #6C757D;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .second{
+        border-bottom: 1px solid #6C757D;
+        margin-bottom: 25px;
+    }
+}
